@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<title>유니뷰 필터</title>
+<style>
+  body { font-family: -apple-system, sans-serif; max-width: 720px; margin: 0 auto; padding: 16px; background: #f7f7f8; }
+  h1 { font-size: 20px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; align-items: center; }
+  .toolbar input[type=text] { flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 6px; min-width: 140px; }
+  .cat-btn { padding: 6px 10px; border-radius: 999px; border: 1px solid #ccc; background: #fff; cursor: pointer; font-size: 13px; }
+  .cat-btn.off { background: #eee; color: #999; text-decoration: line-through; }
+  .date-header { font-size: 13px; font-weight: 700; color: #666; margin: 28px 0 10px 4px; }
+  .date-header:first-child { margin-top: 4px; }
+  .item { background: #fff; border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); position: relative; }
+  .item .meta { font-size: 12px; color: #888; margin-bottom: 4px; }
+  .item .tag { display:inline-block; background:#eef2ff; color:#4f5bd5; border-radius:4px; padding:1px 6px; font-size:11px; margin-right:6px;}
+  .item a.title { font-size: 15px; color: #222; text-decoration: none; font-weight: 500; }
+  .del-btn { position: absolute; top: 10px; right: 10px; border: none; background: none; color: #bbb; font-size: 16px; cursor: pointer; }
+  .del-btn:hover { color: #e33; }
+  .empty { text-align:center; color:#999; padding: 40px 0; }
+
+  .hidden-panel { display: none; margin-top: 32px; padding-top: 16px; border-top: 2px dashed #ccc; }
+  .hidden-panel.open { display: block; }
+  .hidden-panel h2 { font-size: 15px; margin: 0 0 12px 0; color: #555; }
+  .hidden-item { opacity: 0.7; }
+  .hidden-item a.title { color: #999; }
+  .restore-btn { position: absolute; top: 10px; right: 10px; border: 1px solid #ccc; background: #fff; color: #555; font-size: 12px; padding: 4px 10px; border-radius: 6px; cursor: pointer; }
+  .restore-btn:hover { background: #eef2ff; border-color: #4f5bd5; color: #4f5bd5; }
+</style>
+</head>
+<body>
+  <h1>📋 내 유니뷰 (필터링됨)</h1>
+
+  <div class="toolbar">
+    <input id="keywordInput" type="text" placeholder="이 키워드가 들어간 글은 항상 숨기기 (예: 교환학생)" />
+    <button id="addKeywordBtn" class="cat-btn">추가</button>
+  </div>
+  <div id="categoryBar" class="toolbar"></div>
+  <div id="keywordList" class="toolbar"></div>
+  <div class="toolbar">
+    <button id="toggleHiddenBtn" class="cat-btn">🙈 숨긴 글 보기 (<span id="hiddenCount">0</span>)</button>
+  </div>
+
+  <div id="list"></div>
+
+  <div id="hiddenPanel" class="hidden-panel">
+    <h2>숨긴 글 목록 — 복구 버튼을 누르면 다시 보여요</h2>
+    <div id="hiddenList"></div>
+  </div>
+
+  <script>
+    const STORE_HIDDEN_IDS = "uniview_hidden_ids";
+    const STORE_BLOCKED_KEYWORDS = "uniview_blocked_keywords";
+    const STORE_OFF_CATEGORIES = "uniview_off_categories";
+
+    const loadJSON = (key, fallback) => {
+      try {
+        const raw = localStorage.getItem(key);
+        return raw ? JSON.parse(raw) : fallback;
+      } catch { return fallback; }
+    };
+    const saveJSON = (key, val) => localStorage.setItem(key, JSON.stringify(val));
+
+    let hiddenIds = new Set(loadJSON(STORE_HIDDEN_IDS, []));
+    let blockedKeywords = loadJSON(STORE_BLOCKED_KEYWORDS, []);
+    let offCategories = new Set(loadJSON(STORE_OFF_CATEGORIES, []));
+    let allItems = [];
+    let hiddenPanelOpen = false;
+
+    async function load() {
+      const res = await fetch("./data/items.json");
+      allItems = await res.json();
+      renderCategoryBar();
+      renderKeywordList();
+      renderAll();
+    }
+
+    function itemKey(it) { return it.id + "-" + it.category; }
+
+    function renderCategoryBar() {
+      const cats = [...new Set(allItems.map((i) => i.category))];
+      const bar = document.getElementById("categoryBar");
+      bar.innerHTML = "";
+      cats.forEach((cat) => {
+        const btn = document.createElement("button");
+        btn.className = "cat-btn" + (offCategories.has(cat) ? " off" : "");
+        btn.textContent = cat;
+        btn.onclick = () => {
+          if (offCategories.has(cat)) offCategories.delete(cat);
+          else offCategories.add(cat);
+          saveJSON(STORE_OFF_CATEGORIES, [...offCategories]);
+          renderCategoryBar();
+          renderAll();
+        };
+        bar.appendChild(btn);
+      });
+    }
+
+    function renderKeywordList() {
+      const wrap = document.getElementById("keywordList");
+      wrap.innerHTML = "";
+      blockedKeywords.forEach((kw) => {
+        const btn = document.createElement("button");
+        btn.className = "cat-btn";
+        btn.textContent = "🚫 " + kw + "  ✕";
+        btn.onclick = () => {
+          blockedKeywords = blockedKeywords.filter((k) => k !== kw);
+          saveJSON(STORE_BLOCKED_KEYWORDS, blockedKeywords);
+          renderKeywordList();
+          renderAll();
+        };
+        wrap.appendChild(btn);
+      });
+    }
+
+    document.getElementById("addKeywordBtn").onclick = () => {
+      const input = document.getElementById("keywordInput");
+      const kw = input.value.trim();
+      if (!kw) return;
+      if (!blockedKeywords.includes(kw)) {
+        blockedKeywords.push(kw);
+        saveJSON(STORE_BLOCKED_KEYWORDS, blockedKeywords);
+      }
+      input.value = "";
+      renderKeywordList();
+      renderAll();
+    };
+
+    document.getElementById("toggleHiddenBtn").onclick = () => {
+      hiddenPanelOpen = !hiddenPanelOpen;
+      document.getElementById("hiddenPanel").classList.toggle("open", hiddenPanelOpen);
+      renderAll();
+    };
+
+    function hideItem(it) {
+      hiddenIds.add(itemKey(it));
+      saveJSON(STORE_HIDDEN_IDS, [...hiddenIds]);
+      renderAll();
+    }
+
+    function restoreItem(it) {
+      hiddenIds.delete(itemKey(it));
+      saveJSON(STORE_HIDDEN_IDS, [...hiddenIds]);
+      renderAll();
+    }
+
+    // 날짜별로 그룹핑해서 date-header + item 을 컨테이너에 채워넣는 공통 함수
+    function renderGrouped(container, items, buttonBuilder) {
+      container.innerHTML = "";
+      if (items.length === 0) {
+        container.innerHTML = '<div class="empty">표시할 글이 없어요.</div>';
+        return;
+      }
+      let currentDate = null;
+      items.forEach((it) => {
+        if (it.date !== currentDate) {
+          currentDate = it.date;
+          const header = document.createElement("div");
+          header.className = "date-header";
+          header.textContent = it.date || "날짜 미상";
+          container.appendChild(header);
+        }
+        const div = document.createElement("div");
+        div.className = "item" + (buttonBuilder.hidden ? " hidden-item" : "");
+        div.innerHTML = `
+          <div class="meta">
+            <span class="tag">${it.category}</span>
+            ${it.campusTag ? `<span class="tag">${it.campusTag}</span>` : ""}
+            ${it.date || ""} · ${it.writer || ""}
+          </div>
+          <a class="title" href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
+        `;
+        const btn = document.createElement("button");
+        if (buttonBuilder.hidden) {
+          btn.className = "restore-btn";
+          btn.textContent = "복구";
+          btn.onclick = () => restoreItem(it);
+        } else {
+          btn.className = "del-btn";
+          btn.title = "이 글 숨기기";
+          btn.textContent = "✕";
+          btn.onclick = () => hideItem(it);
+        }
+        div.appendChild(btn);
+        container.appendChild(div);
+      });
+    }
+
+    function renderAll() {
+      const sorted = [...allItems].sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+
+      const visible = sorted
+        .filter((it) => !offCategories.has(it.category))
+        .filter((it) => !hiddenIds.has(itemKey(it)))
+        .filter((it) => !blockedKeywords.some((kw) => it.title.includes(kw)));
+
+      const hidden = sorted.filter((it) => hiddenIds.has(itemKey(it)));
+
+      renderGrouped(document.getElementById("list"), visible, { hidden: false });
+
+      document.getElementById("hiddenCount").textContent = hidden.length;
+      if (hiddenPanelOpen) {
+        renderGrouped(document.getElementById("hiddenList"), hidden, { hidden: true });
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "uniview-filter",
+  "version": "1.0.0",
+  "description": "경희대 공지 게시판을 크롤링해서 필요한 소식만 보여주는 필터 도구",
+  "main": "crawler.js",
+  "scripts": {
+    "crawl": "node crawler.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0"
+  }
+}
