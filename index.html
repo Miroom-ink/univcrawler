@@ -50,6 +50,12 @@
   </div>
 
   <script>
+    // ── 클라우드 동기화 설정 (JSONBin) ──────────────────────────
+    // 아래 두 값을 jsonbin.io에서 발급받은 값으로 바꿔주세요.
+    const JSONBIN_ID = "6a7717bdf5f4af5e29fb1db6";
+    const JSONBIN_MASTER_KEY = "$2a$10$i79DWo6RatrnhC16hdRO7uetq4mE0.pchHykeUIc4MpLThWfiGDTu";
+    const JSONBIN_URL = `https://api.jsonbin.io/v3/b/${JSONBIN_ID}`;
+
     const STORE_HIDDEN_IDS = "uniview_hidden_ids";
     const STORE_BLOCKED_KEYWORDS = "uniview_blocked_keywords";
     const STORE_OFF_CATEGORIES = "uniview_off_categories";
@@ -68,7 +74,50 @@
     let allItems = [];
     let hiddenPanelOpen = false;
 
+    // 로컬(localStorage)에만 저장 — 클라우드에서 막 불러온 직후 등에 사용
+    function persistLocalOnly() {
+      saveJSON(STORE_HIDDEN_IDS, [...hiddenIds]);
+      saveJSON(STORE_BLOCKED_KEYWORDS, blockedKeywords);
+      saveJSON(STORE_OFF_CATEGORIES, [...offCategories]);
+    }
+
+    // 로컬 + 클라우드(JSONBin) 둘 다에 저장. 사용자가 뭔가 바꿀 때마다 호출.
+    async function persistState() {
+      persistLocalOnly();
+      try {
+        await fetch(JSONBIN_URL, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json", "X-Master-Key": JSONBIN_MASTER_KEY },
+          body: JSON.stringify({
+            hiddenIds: [...hiddenIds],
+            blockedKeywords,
+            offCategories: [...offCategories],
+          }),
+        });
+      } catch (err) {
+        console.warn("클라우드 저장 실패(오프라인일 수 있음, 로컬엔 저장됨):", err);
+      }
+    }
+
+    // 시작할 때 클라우드에서 최신 상태를 가져와 덮어쓰기. 실패하면 로컬 값 그대로 사용.
+    async function loadRemoteState() {
+      try {
+        const res = await fetch(JSONBIN_URL + "/latest", {
+          headers: { "X-Master-Key": JSONBIN_MASTER_KEY },
+        });
+        const data = await res.json();
+        const record = data.record || {};
+        hiddenIds = new Set(record.hiddenIds || []);
+        blockedKeywords = record.blockedKeywords || [];
+        offCategories = new Set(record.offCategories || []);
+        persistLocalOnly();
+      } catch (err) {
+        console.warn("클라우드 불러오기 실패, 이 기기에 저장된 값 사용:", err);
+      }
+    }
+
     async function load() {
+      await loadRemoteState();
       const res = await fetch("./data/items.json");
       allItems = await res.json();
       renderCategoryBar();
@@ -89,7 +138,7 @@
         btn.onclick = () => {
           if (offCategories.has(cat)) offCategories.delete(cat);
           else offCategories.add(cat);
-          saveJSON(STORE_OFF_CATEGORIES, [...offCategories]);
+          persistState();
           renderCategoryBar();
           renderAll();
         };
@@ -106,7 +155,7 @@
         btn.textContent = "🚫 " + kw + "  ✕";
         btn.onclick = () => {
           blockedKeywords = blockedKeywords.filter((k) => k !== kw);
-          saveJSON(STORE_BLOCKED_KEYWORDS, blockedKeywords);
+          persistState();
           renderKeywordList();
           renderAll();
         };
@@ -120,7 +169,7 @@
       if (!kw) return;
       if (!blockedKeywords.includes(kw)) {
         blockedKeywords.push(kw);
-        saveJSON(STORE_BLOCKED_KEYWORDS, blockedKeywords);
+        persistState();
       }
       input.value = "";
       renderKeywordList();
@@ -135,13 +184,13 @@
 
     function hideItem(it) {
       hiddenIds.add(itemKey(it));
-      saveJSON(STORE_HIDDEN_IDS, [...hiddenIds]);
+      persistState();
       renderAll();
     }
 
     function restoreItem(it) {
       hiddenIds.delete(itemKey(it));
-      saveJSON(STORE_HIDDEN_IDS, [...hiddenIds]);
+      persistState();
       renderAll();
     }
 
