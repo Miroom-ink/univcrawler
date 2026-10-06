@@ -1,11 +1,21 @@
 [
   {
+    "id": "323245",
+    "title": "공통 [공통] 2026학년도 2학기 중간시험 관련 안내",
+    "campusTag": null,
+    "writer": "교무처 학사지원팀(서울)",
+    "date": "2026-10-06",
+    "views": 51,
+    "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323245&menuNo=200317",
+    "category": "학사"
+  },
+  {
     "id": "323083",
     "title": "국제 [교수학습개발원] 국제C 학부생을 위한 학습컨설팅 신청 안내(10월)",
     "campusTag": null,
     "writer": "교수학습개발원",
     "date": "2026-10-02",
-    "views": 182,
+    "views": 193,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323083&menuNo=200316",
     "category": "일반"
   },
@@ -15,7 +25,7 @@
     "campusTag": null,
     "writer": "교수학습개발원",
     "date": "2026-10-02",
-    "views": 308,
+    "views": 329,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323188&menuNo=200316",
     "category": "일반"
   },
@@ -25,7 +35,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-10-02",
-    "views": 319,
+    "views": 489,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323240&menuNo=200317",
     "category": "학사"
   },
@@ -35,7 +45,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-10-02",
-    "views": 142,
+    "views": 202,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323235&menuNo=200317",
     "category": "학사"
   },
@@ -45,7 +55,7 @@
     "campusTag": null,
     "writer": "연대본부(국제)",
     "date": "2026-10-02",
-    "views": 66,
+    "views": 110,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323233&menuNo=200317",
     "category": "학사"
   },
@@ -55,7 +65,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-10-02",
-    "views": 169,
+    "views": 224,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323231&menuNo=200318",
     "category": "장학"
   },
@@ -65,7 +75,7 @@
     "campusTag": null,
     "writer": "미래인재센터(서울)",
     "date": "2026-10-01",
-    "views": 91,
+    "views": 100,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323229&menuNo=200316",
     "category": "일반"
   },
@@ -75,7 +85,7 @@
     "campusTag": null,
     "writer": "지구사회봉사단",
     "date": "2026-10-01",
-    "views": 181,
+    "views": 208,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323228&menuNo=200316",
     "category": "일반"
   },
@@ -85,7 +95,7 @@
     "campusTag": null,
     "writer": "지구사회봉사단",
     "date": "2026-10-01",
-    "views": 84,
+    "views": 93,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323224&menuNo=200316",
     "category": "일반"
   },
@@ -95,7 +105,7 @@
     "campusTag": null,
     "writer": "지구사회봉사단",
     "date": "2026-10-01",
-    "views": 149,
+    "views": 169,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323223&menuNo=200316",
     "category": "일반"
   },
@@ -105,7 +115,7 @@
     "campusTag": null,
     "writer": "미래인재센터(국제)",
     "date": "2026-10-01",
-    "views": 123,
+    "views": 145,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323222&menuNo=200316",
     "category": "일반"
   },
@@ -115,7 +125,7 @@
     "campusTag": null,
     "writer": "미래인재센터(국제)",
     "date": "2026-10-01",
-    "views": 40,
+    "views": 44,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323221&menuNo=200316",
     "category": "일반"
   },
@@ -125,19 +135,9 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-10-01",
-    "views": 252,
+    "views": 303,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323225&menuNo=200318",
     "category": "장학"
-  },
-  {
-    "id": "323203",
-    "title": "공통 [(서울)심리상담센터] 2026-2학기 중간고사 함께 준비해요 - 일주일 챌린지 안내",
-    "campusTag": null,
-    "writer": "심리상담센터(서울)",
-    "date": "2026-09-30",
-    "views": 183,
-    "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323203&menuNo=200316",
-    "category": "일반"
   },
   {
     "id": "323217",
@@ -145,7 +145,7 @@
     "campusTag": null,
     "writer": "연대본부(서울)",
     "date": "2026-09-30",
-    "views": 435,
+    "views": 483,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323217&menuNo=200317",
     "category": "학사"
   },
@@ -155,7 +155,7 @@
     "campusTag": null,
     "writer": "체육부",
     "date": "2026-09-30",
-    "views": 85,
+    "views": 98,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323215&menuNo=200321",
     "category": "행사"
   },
@@ -165,7 +165,7 @@
     "campusTag": null,
     "writer": "미래인재센터(서울)",
     "date": "2026-09-29",
-    "views": 72,
+    "views": 78,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323208&menuNo=200316",
     "category": "일반"
   },
@@ -175,7 +175,7 @@
     "campusTag": null,
     "writer": "미래인재센터(서울)",
     "date": "2026-09-29",
-    "views": 77,
+    "views": 81,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323207&menuNo=200316",
     "category": "일반"
   },
@@ -185,7 +185,7 @@
     "campusTag": null,
     "writer": "자유전공학부",
     "date": "2026-09-29",
-    "views": 76,
+    "views": 78,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323206&menuNo=200316",
     "category": "일반"
   },
@@ -195,7 +195,7 @@
     "campusTag": null,
     "writer": "입학처(국제)",
     "date": "2026-09-29",
-    "views": 122,
+    "views": 128,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323205&menuNo=200316",
     "category": "일반"
   },
@@ -205,7 +205,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-28",
-    "views": 507,
+    "views": 522,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323197&menuNo=200316",
     "category": "일반"
   },
@@ -215,7 +215,7 @@
     "campusTag": null,
     "writer": "현장실습지원센터",
     "date": "2026-09-28",
-    "views": 111,
+    "views": 113,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323200&menuNo=200316",
     "category": "일반"
   },
@@ -225,7 +225,7 @@
     "campusTag": null,
     "writer": "대외협력처(국제)",
     "date": "2026-09-28",
-    "views": 194,
+    "views": 198,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323196&menuNo=200316",
     "category": "일반"
   },
@@ -235,7 +235,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-09-28",
-    "views": 145,
+    "views": 154,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323199&menuNo=200318",
     "category": "장학"
   },
@@ -245,7 +245,7 @@
     "campusTag": null,
     "writer": "미래인재센터(국제)",
     "date": "2026-09-23",
-    "views": 166,
+    "views": 168,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323189&menuNo=200316",
     "category": "일반"
   },
@@ -255,7 +255,7 @@
     "campusTag": null,
     "writer": "지구사회봉사단",
     "date": "2026-09-23",
-    "views": 313,
+    "views": 315,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323184&menuNo=200316",
     "category": "일반"
   },
@@ -265,7 +265,7 @@
     "campusTag": null,
     "writer": "자유전공학부",
     "date": "2026-09-22",
-    "views": 557,
+    "views": 561,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323073&menuNo=200316",
     "category": "일반"
   },
@@ -275,7 +275,7 @@
     "campusTag": null,
     "writer": "미래인재센터(국제)",
     "date": "2026-09-22",
-    "views": 81,
+    "views": 82,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323169&menuNo=200316",
     "category": "일반"
   },
@@ -285,7 +285,7 @@
     "campusTag": null,
     "writer": "미래인재센터(서울)",
     "date": "2026-09-22",
-    "views": 74,
+    "views": 75,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323157&menuNo=200316",
     "category": "일반"
   },
@@ -295,7 +295,7 @@
     "campusTag": null,
     "writer": "일반대학원(국제)",
     "date": "2026-09-21",
-    "views": 407,
+    "views": 408,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323138&menuNo=200316",
     "category": "일반"
   },
@@ -305,7 +305,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-21",
-    "views": 1286,
+    "views": 1327,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323148&menuNo=200318",
     "category": "장학"
   },
@@ -315,7 +315,7 @@
     "campusTag": null,
     "writer": "체육부",
     "date": "2026-09-21",
-    "views": 226,
+    "views": 238,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323139&menuNo=200321",
     "category": "행사"
   },
@@ -335,7 +335,7 @@
     "campusTag": null,
     "writer": "지구사회봉사단",
     "date": "2026-09-18",
-    "views": 178,
+    "views": 179,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323120&menuNo=200316",
     "category": "일반"
   },
@@ -355,7 +355,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-17",
-    "views": 324,
+    "views": 326,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323111&menuNo=200318",
     "category": "장학"
   },
@@ -365,7 +365,7 @@
     "campusTag": null,
     "writer": "체육부",
     "date": "2026-09-17",
-    "views": 272,
+    "views": 284,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323105&menuNo=200321",
     "category": "행사"
   },
@@ -385,7 +385,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-16",
-    "views": 106,
+    "views": 109,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323093&menuNo=200318",
     "category": "장학"
   },
@@ -395,7 +395,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-16",
-    "views": 476,
+    "views": 482,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323098&menuNo=200318",
     "category": "장학"
   },
@@ -405,7 +405,7 @@
     "campusTag": null,
     "writer": "예술디자인대학",
     "date": "2026-09-16",
-    "views": 86,
+    "views": 89,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323097&menuNo=200321",
     "category": "행사"
   },
@@ -415,7 +415,7 @@
     "campusTag": null,
     "writer": "심리상담센터(국제)",
     "date": "2026-09-14",
-    "views": 100,
+    "views": 101,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323072&menuNo=200316",
     "category": "일반"
   },
@@ -425,7 +425,7 @@
     "campusTag": null,
     "writer": "학생지원센터(서울)",
     "date": "2026-09-14",
-    "views": 213,
+    "views": 224,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323064&menuNo=200316",
     "category": "일반"
   },
@@ -435,7 +435,7 @@
     "campusTag": null,
     "writer": "학생지원센터(서울)",
     "date": "2026-09-14",
-    "views": 230,
+    "views": 238,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323063&menuNo=200316",
     "category": "일반"
   },
@@ -445,7 +445,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-09-14",
-    "views": 477,
+    "views": 484,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323081&menuNo=200318",
     "category": "장학"
   },
@@ -465,7 +465,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-14",
-    "views": 504,
+    "views": 505,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323075&menuNo=200318",
     "category": "장학"
   },
@@ -475,19 +475,9 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-14",
-    "views": 424,
+    "views": 426,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323070&menuNo=200318",
     "category": "장학"
-  },
-  {
-    "id": "323057",
-    "title": "서울 [(서울)심리상담센터] 2026-2학기 학사학위취득유예자 맞춤형 심리지원 프로그램",
-    "campusTag": null,
-    "writer": "심리상담센터(서울)",
-    "date": "2026-09-11",
-    "views": 154,
-    "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323057&menuNo=200316",
-    "category": "일반"
   },
   {
     "id": "323054",
@@ -495,7 +485,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-09-11",
-    "views": 771,
+    "views": 773,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323054&menuNo=200318",
     "category": "장학"
   },
@@ -505,7 +495,7 @@
     "campusTag": null,
     "writer": "후마니타스칼리지(국제)",
     "date": "2026-09-10",
-    "views": 1665,
+    "views": 1678,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323051&menuNo=200317",
     "category": "학사"
   },
@@ -515,7 +505,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-09-09",
-    "views": 1652,
+    "views": 1674,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323041&menuNo=200317",
     "category": "학사"
   },
@@ -535,7 +525,7 @@
     "campusTag": null,
     "writer": "음악대학",
     "date": "2026-09-09",
-    "views": 87,
+    "views": 88,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323044&menuNo=200321",
     "category": "행사"
   },
@@ -545,7 +535,7 @@
     "campusTag": null,
     "writer": "체육부",
     "date": "2026-09-09",
-    "views": 392,
+    "views": 404,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323039&menuNo=200321",
     "category": "행사"
   },
@@ -565,7 +555,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-09-07",
-    "views": 1980,
+    "views": 1992,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323023&menuNo=200317",
     "category": "학사"
   },
@@ -575,7 +565,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-09-07",
-    "views": 1754,
+    "views": 1770,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323022&menuNo=200317",
     "category": "학사"
   },
@@ -585,7 +575,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-09-07",
-    "views": 272,
+    "views": 273,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323019&menuNo=200318",
     "category": "장학"
   },
@@ -625,7 +615,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-07",
-    "views": 547,
+    "views": 550,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=323016&menuNo=200318",
     "category": "장학"
   },
@@ -645,7 +635,7 @@
     "campusTag": null,
     "writer": "인사처",
     "date": "2026-09-04",
-    "views": 779,
+    "views": 789,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322985&menuNo=200361",
     "category": "근로"
   },
@@ -655,7 +645,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-09-03",
-    "views": 1276,
+    "views": 1287,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322984&menuNo=200317",
     "category": "학사"
   },
@@ -665,7 +655,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-09-03",
-    "views": 2290,
+    "views": 2303,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322977&menuNo=200317",
     "category": "학사"
   },
@@ -675,7 +665,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-09-03",
-    "views": 1519,
+    "views": 1524,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322983&menuNo=200317",
     "category": "학사"
   },
@@ -695,7 +685,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-02",
-    "views": 667,
+    "views": 673,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322962&menuNo=200318",
     "category": "장학"
   },
@@ -705,7 +695,7 @@
     "campusTag": null,
     "writer": "학군단(서울)",
     "date": "2026-09-01",
-    "views": 362,
+    "views": 365,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322958&menuNo=200316",
     "category": "일반"
   },
@@ -715,7 +705,7 @@
     "campusTag": null,
     "writer": "후마니타스칼리지(국제)",
     "date": "2026-09-01",
-    "views": 6985,
+    "views": 6993,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322409&menuNo=200317",
     "category": "학사"
   },
@@ -725,7 +715,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-09-01",
-    "views": 663,
+    "views": 672,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322953&menuNo=200318",
     "category": "장학"
   },
@@ -735,7 +725,7 @@
     "campusTag": null,
     "writer": "학군단(서울)",
     "date": "2026-09-01",
-    "views": 363,
+    "views": 364,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322959&menuNo=200321",
     "category": "행사"
   },
@@ -745,7 +735,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-28",
-    "views": 2706,
+    "views": 2709,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322905&menuNo=200317",
     "category": "학사"
   },
@@ -755,7 +745,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-08-28",
-    "views": 3824,
+    "views": 3831,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322904&menuNo=200317",
     "category": "학사"
   },
@@ -765,7 +755,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-08-28",
-    "views": 331,
+    "views": 332,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322915&menuNo=200318",
     "category": "장학"
   },
@@ -775,9 +765,19 @@
     "campusTag": null,
     "writer": "음악대학",
     "date": "2026-08-27",
-    "views": 536,
+    "views": 548,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322899&menuNo=200321",
     "category": "행사"
+  },
+  {
+    "id": "322881",
+    "title": "공통 [총무팀] 2026학년도 2학기 경희대학교 셔틀버스 일정 공지",
+    "campusTag": null,
+    "writer": "총무팀(국제)",
+    "date": "2026-08-26",
+    "views": 416,
+    "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322881&menuNo=200316",
+    "category": "일반"
   },
   {
     "id": "322891",
@@ -785,7 +785,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-08-26",
-    "views": 2730,
+    "views": 2739,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322891&menuNo=200317",
     "category": "학사"
   },
@@ -795,9 +795,19 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-08-26",
-    "views": 896,
+    "views": 897,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322892&menuNo=200317",
     "category": "학사"
+  },
+  {
+    "id": "322862",
+    "title": "공통 [국제교육원(국제)] 2학기 전화영어/화상영어 프로그램 안내",
+    "campusTag": null,
+    "writer": "언어교육원",
+    "date": "2026-08-24",
+    "views": 259,
+    "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322862&menuNo=200316",
+    "category": "일반"
   },
   {
     "id": "322836",
@@ -805,7 +815,7 @@
     "campusTag": null,
     "writer": "연대본부(국제)",
     "date": "2026-08-21",
-    "views": 1067,
+    "views": 1070,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322836&menuNo=200317",
     "category": "학사"
   },
@@ -825,7 +835,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-08-20",
-    "views": 1397,
+    "views": 1399,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322827&menuNo=200361",
     "category": "근로"
   },
@@ -845,7 +855,7 @@
     "campusTag": null,
     "writer": "관재팀(국제)",
     "date": "2026-08-19",
-    "views": 1076,
+    "views": 1080,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322811&menuNo=200361",
     "category": "근로"
   },
@@ -855,7 +865,7 @@
     "campusTag": null,
     "writer": "입학처(서울)",
     "date": "2026-08-18",
-    "views": 934,
+    "views": 935,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322806&menuNo=200361",
     "category": "근로"
   },
@@ -865,7 +875,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-13",
-    "views": 1840,
+    "views": 1841,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322772&menuNo=200317",
     "category": "학사"
   },
@@ -875,7 +885,7 @@
     "campusTag": null,
     "writer": "창업교육센터(국제)",
     "date": "2026-08-12",
-    "views": 678,
+    "views": 680,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322552&menuNo=200317",
     "category": "학사"
   },
@@ -885,7 +895,7 @@
     "campusTag": null,
     "writer": "창업교육센터(국제)",
     "date": "2026-08-12",
-    "views": 565,
+    "views": 567,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322551&menuNo=200317",
     "category": "학사"
   },
@@ -895,7 +905,7 @@
     "campusTag": null,
     "writer": "창업교육센터(국제)",
     "date": "2026-08-12",
-    "views": 314,
+    "views": 315,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322550&menuNo=200317",
     "category": "학사"
   },
@@ -905,7 +915,7 @@
     "campusTag": null,
     "writer": "창업교육센터(국제)",
     "date": "2026-08-12",
-    "views": 716,
+    "views": 720,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322554&menuNo=200317",
     "category": "학사"
   },
@@ -915,7 +925,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-08-11",
-    "views": 6197,
+    "views": 6199,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322755&menuNo=200361",
     "category": "근로"
   },
@@ -925,7 +935,7 @@
     "campusTag": null,
     "writer": "연대본부(국제)",
     "date": "2026-08-10",
-    "views": 298,
+    "views": 299,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322743&menuNo=200317",
     "category": "학사"
   },
@@ -935,7 +945,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-08-07",
-    "views": 951,
+    "views": 952,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322729&menuNo=200361",
     "category": "근로"
   },
@@ -945,7 +955,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-07",
-    "views": 187,
+    "views": 189,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322722&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -955,7 +965,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-08-07",
-    "views": 264,
+    "views": 267,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322721&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -975,7 +985,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-06",
-    "views": 63,
+    "views": 66,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322704&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -995,7 +1005,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-08-05",
-    "views": 809,
+    "views": 811,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322695&menuNo=200317",
     "category": "학사"
   },
@@ -1005,7 +1015,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-08-05",
-    "views": 2032,
+    "views": 2034,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322701&menuNo=200317",
     "category": "학사"
   },
@@ -1035,7 +1045,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-05",
-    "views": 38,
+    "views": 39,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322693&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1045,7 +1055,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-05",
-    "views": 124,
+    "views": 125,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322684&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1065,7 +1075,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-08-04",
-    "views": 1428,
+    "views": 1432,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322678&menuNo=200361",
     "category": "근로"
   },
@@ -1075,7 +1085,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-08-04",
-    "views": 908,
+    "views": 911,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322673&menuNo=200361",
     "category": "근로"
   },
@@ -1085,7 +1095,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-08-04",
-    "views": 1183,
+    "views": 1184,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322676&menuNo=200361",
     "category": "근로"
   },
@@ -1095,7 +1105,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-04",
-    "views": 14,
+    "views": 15,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322677&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1105,7 +1115,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-04",
-    "views": 22,
+    "views": 23,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322668&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1115,7 +1125,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-03",
-    "views": 13,
+    "views": 14,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322660&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1125,7 +1135,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-08-03",
-    "views": 24,
+    "views": 25,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322658&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1155,18 +1165,8 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2026-07-24",
-    "views": 1450,
+    "views": 1453,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322633&menuNo=200317",
-    "category": "학사"
-  },
-  {
-    "id": "322643",
-    "title": "국제 [국제] 2026학년도 2학기 후마니타스칼리지 수강신청 안내",
-    "campusTag": null,
-    "writer": "후마니타스칼리지(국제)",
-    "date": "2026-07-24",
-    "views": 3378,
-    "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322643&menuNo=200317",
     "category": "학사"
   },
   {
@@ -1175,7 +1175,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-07-24",
-    "views": 10,
+    "views": 11,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322655&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1415,7 +1415,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-07-01",
-    "views": 517,
+    "views": 520,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322371&menuNo=200318",
     "category": "장학"
   },
@@ -1425,7 +1425,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-06-26",
-    "views": 724,
+    "views": 726,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322331&menuNo=200318",
     "category": "장학"
   },
@@ -1455,7 +1455,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-06-12",
-    "views": 1310,
+    "views": 1311,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322212&menuNo=200361",
     "category": "근로"
   },
@@ -1495,7 +1495,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-06-10",
-    "views": 1724,
+    "views": 1725,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322156&menuNo=200361",
     "category": "근로"
   },
@@ -1535,7 +1535,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(국제)",
     "date": "2026-06-02",
-    "views": 2471,
+    "views": 2479,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=322096&menuNo=200320",
     "category": "교내학점교류"
   },
@@ -1595,7 +1595,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-05-19",
-    "views": 1717,
+    "views": 1720,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=321952&menuNo=200361",
     "category": "근로"
   },
@@ -1635,7 +1635,7 @@
     "campusTag": null,
     "writer": "(서울)학생지원센터",
     "date": "2026-05-11",
-    "views": 678,
+    "views": 679,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=321882&menuNo=200318",
     "category": "장학"
   },
@@ -1665,7 +1665,7 @@
     "campusTag": null,
     "writer": "(국제)학생지원센터",
     "date": "2026-04-24",
-    "views": 2584,
+    "views": 2585,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=321752&menuNo=200318",
     "category": "장학"
   },
@@ -1785,7 +1785,7 @@
     "campusTag": null,
     "writer": "교무처 학사지원팀(서울)",
     "date": "2025-11-11",
-    "views": 2233,
+    "views": 2246,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=320347&menuNo=200317",
     "category": "학사"
   },
@@ -1825,7 +1825,7 @@
     "campusTag": null,
     "writer": "후마니타스칼리지(국제)",
     "date": "2022-03-02",
-    "views": 2652,
+    "views": 2653,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=283222&menuNo=200319",
     "category": "시간표변경"
   },
@@ -2095,7 +2095,7 @@
     "campusTag": null,
     "writer": "관리자",
     "date": "2014-01-03",
-    "views": 19666,
+    "views": 19668,
     "url": "https://www.khu.ac.kr/kor/user/bbs/BMSR00040/view.do?boardId=281093&menuNo=200321",
     "category": "행사"
   }
